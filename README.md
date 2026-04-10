@@ -1,6 +1,6 @@
 <img src="extras/imagenes/javascript.jpg">
 
-# Javascript desde 0 - código 81126
+# Curso: Javascript desde 0 - código 81126
  
 <img src="https://img.shields.io/badge/Javascript-F0DB4F?style=for-the-badge&logo=javascript&logoColor=white">
 
