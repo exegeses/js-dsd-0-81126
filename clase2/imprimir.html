@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escribir dentro del documento html</title>
+</head>
+<body>
+    <h1>Escribir dentro del documento html</h1>
+
+    <p id="parrafo">
+        párrafo en html
+    </p>
+
+    <script>
+        // docuemnt hace referencia al documento
+        document.write('texto generado con Javascript')
+        document.body.style.backgroundColor = 'rgb(176, 233, 220)'
+        // vamos a modificar el texto dentro del párrafo
+        document.getElementById('parrafo').textContent = 'hula mundo desde javascript'
+        /*
+            getElementById('parrafo') sirve para encontrar 
+                dentro del documento un elemento que tiene el id = "parrafo"
+            textContent sirve para escribir dentro de un elemento
+        */
+    </script>
+</body>
+</html>

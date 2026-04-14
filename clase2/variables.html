@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variables y constantes en JavaScript</title>
+</head>
+<body>
+    <h1>Variables y constantes en JavaScript</h1>
+
+    <script>
+        /*
+            Utilizamos variables y también constantes 
+            para almacenar un dato en memoria
+            Vamos a almacenar datos en memoria para utilizarlos después
+        */
+        // declaración de variables -> hacer que exista una variable
+        let puntaje = 0
+        console.log(puntaje)
+        let precio = 75.5
+        console.log(precio)
+        let direccion = "Lavalle 648, piso 8" 
+        console.log(direccion)
+        // declaración de constantes -> const
+        const PI = 3.141592
+        const fecha = '14/04/2026'
+
+        console.log('fecha:',fecha)
+
+        // modificando el valor de una variable
+        precio = 70
+        console.log(precio)
+        // no se puede modificar el valor de una constante
+        //fecha = 8
+
+        /* ## saber el tipo de dato  typeof() */
+        console.log( typeof(precio) )
+        console.log( typeof(direccion) )
+
+    </script>
+
+</body>
+</html>
