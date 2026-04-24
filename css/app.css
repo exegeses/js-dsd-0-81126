@@ -61,3 +61,14 @@ li{
     padding: 4px;
     color: #fed666;
 }
+
+#caja{
+    margin: 32px;
+    padding: 16px;
+    width: 200px;
+    height: 200px;
+    border-radius: 12px;
+    background-color: hsl(0, 0%, 60%);
+    color: white;
+    transition: 500ms;
+}
