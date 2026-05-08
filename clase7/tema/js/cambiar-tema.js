@@ -1,5 +1,6 @@
 const css = document.querySelector('#css') // hoja de estilos
 const btnSwitch = document.querySelector('#switch') //boton
+const imgSwitch = document.querySelector('#switch img') //imagen
 /*
     flag: es una variable auxiliar que va a tomar únicamente dos valores
           El objetivo es que esta variable pueda controlar nuestro código
@@ -15,10 +16,12 @@ btnSwitch.onclick = function()
 {
     if( tema == 'oscuro' ){
         css.href = 'css/light.css'
+        imgSwitch.src = 'imgs/dark-switch.png'
         tema = 'claro'
     }
     else{
         css.href = 'css/dark.css'
+        imgSwitch.src = 'imgs/light-switch.png'
         tema = 'oscuro'
     }
 }
